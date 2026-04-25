@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+body {
+  margin: 2rem;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+.animeLeft {
+  transform: translateX(-1.25rem);
+  opacity: 0;
+  animation: animaLeft 0.3s forwards;
+}
+
+@keyframes animaLeft {
+  to {
+    transform: initial;
+    opacity: initial;
+  }
+}
+
+.loading {
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  border: 10px solid #ccc;
+  border-right-color: transparent;
+
+  animation: loading 1s infinite;
+}
+
+@keyframes loading {
+  to {
+    transform: rotate(360deg);
+  }
+}

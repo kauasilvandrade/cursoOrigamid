@@ -1,5 +1,12 @@
 {
   "dependencies": {
-    "react-hook-form": "^7.72.0"
+    "bootstrap": "^5.3.8",
+    "react-hook-form": "^7.72.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.10",
+    "tailwindcss": "^4.2.4"
   }
 }
